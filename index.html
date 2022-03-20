@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Travel the World </title>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <a href="">
+                <div class="logo">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <div>LOGO</div>
+                </div>
+            </a>
+
+            <div class="search"><i class="fa fa-search" aria-hidden="true"></i> </div>
+        </nav>
+    </header>
+    <section class="banner" style="background-image: url(./london.jpg)">
+
+        <div class="menu_banner">
+            <div class="btn_banner">
+                <button class="btn1_banner"><i class="fa fa-plane" aria-hidden="true"></i>Flight</button>
+                <button class="btn2_banner"><i class="fa fa-bed" aria-hidden="true"></i>Hotel</button>
+                <button class="btn3_banner"><i class="fa fa-car" aria-hidden="true"></i>Rental</button>
+            </div>
+            <div class="txt_banner">Travel the world with us</div>
+            <div>
+                <form class="form_banner" action="" method="get">
+                    <div class="flex_column">
+                        <div class="flex_row">
+                            <div class="field1">
+                                <label for="">From</label>
+                                <input id="from" type="text" name="from" placeholder='Departing from'>
+                            </div>
+                            <div class="field2">
+                                <label for="" placeholder='Arrivind at'>To</label>
+                                <input id="to" type="text" name="to" placeholder='Arrivind at'>
+                            </div>
+                        </div>
+                        <button id="btn_banner" type="submit">Search and find dates</button>
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="grid_geral " class="flex_center">
+        <div class="container ">
+            <div class="txt_grid1">Good Offers Right Now</div>
+            <div class="txt_grid2"> Up to <span style="font-weight: bold;">50%</span> discount</div>
+            <div class="grid flex_row container_column_mobile">
+                <div class="flex_column">
+
+                    <a href="">
+                        <div class="grid_g flex_column  ">
+                            <img class="size_img_mobile" src="./cinqueterre.jpg" width="100%" height="400">
+                            <figcaption>Cinque Terre</figcaption>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid_p">
+                    <div class="div_p_sup flex_row container_column_mobile">
+                        <a href="">
+                            <div class="img_grid">
+                                <img class="size_img_mobile" src="./newyork.jpg" width="100%" height="191">
+                                <figcaption>New York</figcaption>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="img_grid">
+                                <img class="size_img_mobile" src="./sanfran.jpg" width="100%  " height="191">
+                                <figcaption>San Francisco</figcaption>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="div_p_inf flex_row container_column_mobile">
+                        <a href="">
+                            <div class="img_grid">
+                                <img class="size_img_mobile" src="./pisa.jpg" width="100%" height="191">
+                                <figcaption>Pisa</figcaption>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="img_grid">
+                                <img class="size_img_mobile" src="./paris.jpg" width="100%" height="191">
+                                <figcaption>Paris</figcaption>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+
+                <div class="txt_grid1">Explore Nature</div>
+                <div class="txt_grid2"> Travel with us and see nature at its finest.</div>
+
+                <div class="flex container_column_mobile">
+                    <div class="grid2 pad1">
+                        <img src="./ocean.jpg" width="100%" height="263px">
+                        <div id="box_txt_grid">
+                            <div class="txt1_grid2">West Coast, Norway</div>
+                            <div class="txt2_grid2">Roundtrip from $79</div>
+                            <div class="txt3_grid2">Present tincidunt sed tellus ut rutrum sed vitae justo.</div>
+                            <a href=""><button>Buy Tickets</button></a>
+                        </div>
+
+                    </div>
+                    <div class="grid2 pad2">
+                        <img src="./mountains.jpg" width="100%" height="263px">
+                        <div id="box_txt_grid">
+                            <div class="txt1_grid2">Mountains, Austria</div>
+                            <div class="txt2_grid2">One-way from $39</div>
+                            <div class="txt3_grid2">Present tincidunt sed tellus ut rutrum sed vitae justo.</div>
+                            <a href=""><button>Buy Tickets</button></a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+            <div id="form_email" class="container">
+                <div class="txt1_form_email">Get the best offers first!</div>
+                <div class="txt2_form_email">Join our newsletter.</div>
+
+                <form class="flex_column" method="">
+                    <label for="">E-mail</label>
+                    <input id="email" type="email" name="email" placeholder='Your Email address'>
+                    <button type="submit">Subscribe</button>
+                </form>
+
+            </div>
+
+            <address class="flex_column">
+
+                <div id="contact"> Contact </div>
+                <div id="letus" class="flex contact_font"> Let us book your next trip! </div>
+                <div class="flex_column">
+                    <div class="flex contact_font">
+                        <i class="fa fa-map-marker  " aria-hidden="true"> </i>
+                        <div id="chicago">Chicago, US</div>
+                    </div>
+
+                    <div class="flex contact_font">
+                        <i class="fa fa-phone " aria-hidden="true"> </i>
+                        <div id="phone">Phone +00 151515</div>
+                    </div>
+
+
+                    <div class="flex contact_font">
+                        <i class="fa fa-envelope " aria-hidden="true"></i>
+                        <div id="email_txt">Email: mail@mail.com</div>
+                    </div>
+
+
+
+                    <form id="contact" class="flex_column" method="">
+                        <input id="name_contact" type="text" name="name_contact" placeholder='Name'>
+                        <input id="email_contact" type="email" name="email_contact" placeholder='Email'>
+                        <input id="msg_contact" type="text" name="msg_contact" placeholder='Message'>
+                        <button type="submit">SEND MESSAGE</button>
+
+
+
+                    </form>
+
+            </address>
+
+
+        </div>
+
+
+    </section>
+
+    <section id="footer" class=" flex_center">
+        <footer class="container ">
+            <div id="footer_txt1">Find Us On</div>
+            <div id="icon_socialmedia">
+                <a href=""> <i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href=""> <i class="fa fa-snapchat" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+            <div id="footer_txt2">Powered by <a href="">w3.css</a></div>
+        </footer>
+
+    </section>
+
+
+
+
+</body>
+
+</html>
